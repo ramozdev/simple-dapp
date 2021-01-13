@@ -4,8 +4,9 @@
   "scripts": {
     "dev": "next",
     "ethserver": "truffle develop --log",
-    "ethstart": "truffle migrate --reset && truffle console",
+    "ethmigrate": "truffle migrate --reset",
     "build": "next build",
+    "preview": "next build && next start",
     "start": "next start",
     "type-check": "tsc"
   },
